@@ -17,11 +17,49 @@
 .info-first-section {
   height: 690px;
   background: url(../images/first-banner.jpg);
-  background-size: 1300px;
+  background-size: 1200px;
   position: relative;
 }
 
-.article {
+.info-second-section {
+  height: 690px;
+  background: url(../images/banner-carousel.jpg);
+  background-size: 1200px;
+  position: relative;
+}
+
+.info-article-one {
+  position: relative;
+  background: url(../images/banner-procura1.jpg);
+  height: 400px;
+  width: 350px;
+}
+
+@media (max-width: 425px) {
+  .info-article-one {
+    width: 300px;
+  }
+}
+
+.text-box {
   z-index: 2;
   position: absolute;
+}
+
+.fonts-icons {
+  font-size: 70px;
+}
+
+.size-height {
+  height: 80px;
+}
+
+.section-bg {
+  background-color: #ededed;
+}
+
+.img-size,
+img {
+  height: auto;
+  max-width: 100%;
 }
