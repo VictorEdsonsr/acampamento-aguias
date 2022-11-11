@@ -1,0 +1,16 @@
+#logo-header {
+  height: 50px;
+}
+
+.menu-item {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  padding-top: 5px;
+}
+
+.menu-item,
+li,
+a:hover {
+  color: orange !important;
+}

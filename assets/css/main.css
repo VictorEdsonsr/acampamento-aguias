@@ -1,0 +1,27 @@
+.gradient {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  top: 0%;
+  left: 0;
+  right: 0%;
+  bottom: 0%;
+  position: absolute;
+}
+
+.info-first-section {
+  height: 690px;
+  background: url(../images/first-banner.jpg);
+  background-size: 1300px;
+  position: relative;
+}
+
+.article {
+  z-index: 2;
+  position: absolute;
+}
