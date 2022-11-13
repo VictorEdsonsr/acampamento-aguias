@@ -14,6 +14,31 @@
   position: absolute;
 }
 
+/*Ferias*/
+.ferias-first-section {
+  height: 690px;
+  background: url(../images/ferias-first-banner.jpg);
+  background-size: 1200px;
+  position: relative;
+}
+
+/*Estrutura*/
+.estrutura-first-section {
+  height: 690px;
+  background: url(../images/estrutura-banner.jpg);
+  background-size: 1200px;
+  position: relative;
+}
+
+.section-saude-bg {
+  background-color: #bdbdbd;
+}
+
+.section-infra-bg {
+  background-color: #6a6a6a;
+}
+
+/*Home*/
 .info-first-section {
   height: 690px;
   background: url(../images/first-banner.jpg);
