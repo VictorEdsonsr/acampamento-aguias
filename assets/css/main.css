@@ -18,16 +18,16 @@
 .ferias-first-section {
   height: 690px;
   background: url(../images/ferias-first-banner.jpg);
-  background-size: 1200px;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 /*Estrutura*/
 .estrutura-first-section {
   height: 690px;
   background: url(../images/estrutura-banner.jpg);
-  background-size: 1200px;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .section-saude-bg {
@@ -42,14 +42,14 @@
 .info-first-section {
   height: 690px;
   background: url(../images/first-banner.jpg);
-  background-size: 1200px;
   position: relative;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .info-second-section {
   height: 690px;
   background: url(../images/banner-carousel.jpg);
-  background-size: 1200px;
   position: relative;
 }
 
