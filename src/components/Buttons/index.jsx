@@ -2,7 +2,10 @@ import Link from "next/link";
 
 export const WhatsappButton = ({ children }) => {
   return (
-    <Link href="" className="bg-green-600 font-semibold p-3 rounded-md">
+    <Link
+      href=""
+      className="bg-green-600 font-semibold p-3 text-center text-md sm:text-xl text-white rounded-md"
+    >
       {children}
     </Link>
   );

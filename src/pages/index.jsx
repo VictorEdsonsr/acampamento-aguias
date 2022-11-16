@@ -31,7 +31,7 @@ export default function Home() {
           <div className="container flex items-center justify-center flex flex-col sm:flex-row">
             <article className="text-center p-5 flex flex-col items-center justify-center max-w-md">
               <span>
-                <FaCamera size={40} />
+                <FaMapMarkedAlt size={40} />
               </span>
 
               <h2 className="font-bold text-lg">
@@ -45,7 +45,7 @@ export default function Home() {
 
             <article className="text-center p-5 flex flex-col items-center justify-center max-w-md">
               <span>
-                <FaMapMarkedAlt size={40} />
+                <FaCamera size={40} />
               </span>
 
               <h3 className="font-bold text-lg">Acompanhamento Ao Vivo</h3>

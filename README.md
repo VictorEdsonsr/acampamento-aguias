@@ -1,7 +1,11 @@
-# passar site para next com todas as funcionalidades
+# passar site para next com todas as funcionalidades [x]
 
-    -
+# acabar de configurar o site [x]
 
-# acabar de configurar o site
+# fazer deploy na vercel [x]
 
-# fazer deploy na vercel
+# acabar pagina externa "o acampamento" [x]
+
+# onde nao tiver imagem por um nome para selecionar exemplo: IMAGEM001, LOGO[x]
+
+# finalizar pagina de atividades[x]
