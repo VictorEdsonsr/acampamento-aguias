@@ -27,7 +27,7 @@ export default function Atividade() {
                 Vai ser inesquecível
               </h2>
 
-              <ul className="text-left">
+              <ul className="text-left list-disc">
                 <li className="text-lg">Tiroleza</li>
                 <li className="text-lg">Teia de Escalada</li>
                 <li className="text-lg">Trilha na Mata</li>
@@ -83,7 +83,7 @@ export default function Atividade() {
                 É DE PRATICAR OUTROS ESPORTES
               </h2>
 
-              <ul className="text-left">
+              <ul className="text-left ml-10 list-disc">
                 <li className="text-lg">Natação</li>
                 <li className="text-lg">Volei</li>
                 <li className="text-lg">Futvolei</li>
