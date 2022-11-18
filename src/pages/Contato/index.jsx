@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { FaPhone, FaWhatsappSquare, FaEnvelope } from "react-icons/fa";
 import { WhatsappButton } from "../../components/Buttons";
 
@@ -23,12 +24,12 @@ export default function Contato() {
             <div className="flex flex-col items-center">
               <FaPhone size={50} />
               <h1 className="my-6 font-semibold text-xl">Telefone</h1>
-              <a
+              <Link
                 className="cursor-pointer underline hover:text-orange-500 text-md"
-                href="tel:5555555555"
+                href="tel:+552197093-7723"
               >
-                555555555555
-              </a>
+                +55 21 97093-7723
+              </Link>
             </div>
 
             <div className="flex flex-col items-center">
@@ -40,12 +41,12 @@ export default function Contato() {
             <div className="flex flex-col items-center">
               <FaEnvelope size={50} />
               <h1 className="my-6 font-semibold text-xl">Email</h1>
-              <a
+              <Link
                 className="cursor-pointer underline hover:text-orange-500 text-md"
-                href="mailto:asd@gmail.com"
+                href="mailto:alexisjornalista@gmail.com"
               >
-                acampamento@gmail.com
-              </a>
+                alexisjornalista@gmail.com
+              </Link>
             </div>
           </div>
         </section>
