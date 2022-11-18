@@ -29,11 +29,11 @@ export default function Atividade() {
         <title>Atividades</title>
       </Head>
       <main>
-        <section className="w-full h-[300px]">
+        <section className="w-full">
           <Image
             src={firstBanner}
             alt="Foto de criancas brincando"
-            className="w-full h-full"
+            className="w-full h-60 sm:h-[390px]"
           />
         </section>
 

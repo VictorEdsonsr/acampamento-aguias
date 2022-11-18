@@ -32,27 +32,27 @@ export default function Slider() {
       >
         <SwiperSlide className="relative flex flex-col items-center justify-center">
           <Image
-            className="object-fill w-full h-[420px] sm:h-[690px]"
+            className=" w-full h-60 sm:h-[690px]"
             src={principalOne}
             alt="image slide 1"
           />
           <article className="absolute z-10 m-auto text-white  text-center max-w-6xl">
-            <h1 className="font-extrabold text-xl sm:text-5xl my-3">
+            <h1 className="font-extrabold text-md sm:text-5xl my-3">
               Um acampamento de férias no Interior do Rio de Janeiro 90
               quilômetros do Aeroporto Santos Dumont
             </h1>
 
-            <p className="font-bold text-md sm:text-xl">
+            <p className="font-bold text-sm sm:text-xl">
               Acampamento seguindo padrões e procedimentos da International
               Camping Fellowship
             </p>
           </article>
 
-          <div className="bg-gradient-to-t from-slate-800 to-transparent absolute top-0 right-0 left-0 bottom-0"></div>
+          <div className="bg-gradient-to-t from-slate-900 to-transparent absolute top-0 right-0 left-0 bottom-0"></div>
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            className="object-fill w-full h-[420px] sm:h-[690px]"
+            className=" w-full h-60 sm:h-[690px]"
             src={principalTwo}
             alt="image slide 2"
           />
