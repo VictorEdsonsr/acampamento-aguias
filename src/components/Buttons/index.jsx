@@ -4,7 +4,7 @@ export const WhatsappButton = ({ children }) => {
   return (
     <Link
       href="https://wa.me/5521970937723"
-      className="bg-green-600 font-semibold p-3 text-center text-md sm:text-xl text-white rounded-md"
+      className="bg-green-600 font-semibold p-3 text-center text-sm sm:text-md text-white rounded-md"
     >
       {children}
     </Link>

@@ -12,7 +12,7 @@ import atividadeThree from "../../../public/img/atividades-3.jpg";
 import atividadeFour from "../../../public/img/atividades-4.jpg";
 
 import oficinaOne from "../../../public/img/oficina-1.jpg";
-import oficinaTwo from "../../../public/img/oficina-2.jpeg";
+import oficinaTwo from "../../../public/img/oficina-2.jpg";
 import oficinaThree from "../../../public/img/oficina-3.jpeg";
 import oficinaFour from "../../../public/img/oficina-4.jpg";
 

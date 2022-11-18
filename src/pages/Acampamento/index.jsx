@@ -2,6 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import { WhatsappButton } from "../../components/Buttons";
 
+import bannerOne from "../../../public/img/acampamento-1.jpg";
+import bannerTwo from "../../../public/img/acampamento-2.jpg";
+import bannerThree from "../../../public/img/acampamento-3.jpg";
+import bannerFour from "../../../public/img/acampamento-4.jpg";
+
 export default function Acampamento() {
   return (
     <>
@@ -9,12 +14,10 @@ export default function Acampamento() {
         <title>O acampamento</title>
       </Head>
       <main>
-        <section className=" h-[280px] sm:h-[500px] flex items-center flex-col justify-center">
+        <section className="flex items-center flex-col justify-center">
           <Image
-            src="/img/acampamento-banner.jpg"
-            width={500}
-            height={500}
-            className="w-full h-full"
+            src={bannerOne}
+            className="w-full h-80 sm:h-[690px]"
             alt="Banner da pagina acampamento"
           />
         </section>
@@ -52,15 +55,11 @@ export default function Acampamento() {
               </p>
             </article>
 
-            <figure className="h-[300px] md:h-[500px] flex items-center flex-col ">
-              <Image
-                src="/img/acampamento-ferias.jpg"
-                width={200}
-                height={200}
-                className="w-full h-full"
-                alt="Imagem sobre o acampamento"
-              />
-            </figure>
+            <Image
+              src={bannerTwo}
+              className="w-full h-52 sm:h-80 ml-0 sm:ml-5 my-5 sm:my-0"
+              alt="Imagem sobre o acampamento"
+            />
           </div>
         </section>
 
@@ -110,15 +109,11 @@ export default function Acampamento() {
               </p>
             </article>
 
-            <figure className="h-[300px] md:h-[500px] flex items-center flex-col ">
-              <Image
-                src="/img/porque-mandar.jpg"
-                width={200}
-                height={200}
-                className="w-full h-full"
-                alt="Imagem do porque mandar seu filho para o acampamento"
-              />
-            </figure>
+            <Image
+              src={bannerThree}
+              className="w-full h-52 sm:h-80 ml-0 sm:ml-5 my-5 sm:my-0"
+              alt="Imagem do porque mandar seu filho para o acampamento"
+            />
           </div>
         </section>
 
@@ -168,15 +163,12 @@ export default function Acampamento() {
                 da tela do celular
               </p>
             </article>
-            <figure className="h-[300px] md:h-[500px] flex items-center flex-col ">
-              <Image
-                src="/img/primeira-vez.jpg"
-                width={200}
-                height={200}
-                className="w-full h-full"
-                alt="Imagem de filho acampando pela primeira vez"
-              />
-            </figure>
+
+            <Image
+              src={bannerFour}
+              className="w-full h-52 sm:h-80 ml-0 sm:ml-5 my-5 sm:my-0"
+              alt="Imagem de filho acampando pela primeira vez"
+            />
           </div>
         </section>
 
@@ -215,12 +207,10 @@ export default function Acampamento() {
           </article>
 
           <div className="container  p-4 flex justify-center items-center flex-col sm:flex-row">
-            <article className=" border-2 border-black flex flex-col items-center p-3">
-              <div className="border border-black h-2/5 m-3 flex flex-col items-center justify-center w-full">
+            <article className=" border rounded-lg shadow-2xl border-slate-300 flex flex-col items-center p-3 w-64">
+              <div className="border rounded-md border-black m-3 flex flex-col items-center justify-center w-full">
                 <h1 className="text-xl text-black font-bold">7 DIAS</h1>
               </div>
-
-              <WhatsappButton>SOLICITAR PROPOSTA WHATSAPP</WhatsappButton>
 
               <ul className="text-black my-3">
                 <li>Roupa de cama inclusa</li>
@@ -231,17 +221,17 @@ export default function Acampamento() {
                 </li>
               </ul>
 
-              <div className="border font-bold border-green-500 text-green-700  p-3 rounded-md flex items-center justify-center text-black">
-                Valor 999,00
-              </div>
-            </article>
-
-            <article className="my-5 sm:my-0 sm:mx-5 border-2 border-black flex flex-col items-center p-3">
-              <div className="border border-black h-2/5 m-3 flex flex-col items-center justify-center w-full">
-                <h1 className="text-xl text-black font-bold">14 DIAS</h1>
+              <div className="border my-3 font-bold border-green-500 text-green-700  p-3 rounded-md flex items-center justify-center text-black">
+                R$ 999,00
               </div>
 
               <WhatsappButton>SOLICITAR PROPOSTA WHATSAPP</WhatsappButton>
+            </article>
+
+            <article className="my-5 sm:my-0 sm:mx-5 border rounded-lg shadow-2xl border-slate-300 flex flex-col items-center w-64 p-3">
+              <div className="border rounded-md border-black h-2/5 m-3 flex flex-col items-center justify-center w-full">
+                <h1 className="text-xl text-black font-bold">14 DIAS</h1>
+              </div>
 
               <ul className="text-black my-3">
                 <li>Roupa de cama inclusa</li>
@@ -252,19 +242,19 @@ export default function Acampamento() {
                 </li>
               </ul>
 
-              <div className="border font-bold border-green-500 text-green-700  p-3 rounded-md flex items-center justify-center text-black">
-                Valor 1.999,00
+              <div className="border my-3 font-bold border-green-500 text-green-700  p-3 rounded-md flex items-center justify-center text-black">
+                R$ 1.999,00
               </div>
+
+              <WhatsappButton>SOLICITAR PROPOSTA WHATSAPP</WhatsappButton>
             </article>
 
-            <article className=" border-2 border-black flex flex-col items-center p-3">
-              <div className="border border-black h-2/5 m-3 flex flex-col items-center justify-center w-full">
+            <article className=" border rounded-lg shadow-2xl border-slate-300 flex flex-col items-center p-3 w-64">
+              <div className="border rounded-md border-black h-2/5 m-3 flex flex-col items-center justify-center w-full">
                 <h1 className="text-xl text-black uppercase font-bold">
                   Final de Semana
                 </h1>
               </div>
-
-              <WhatsappButton>SOLICITAR PROPOSTA WHATSAPP</WhatsappButton>
 
               <ul className="text-black my-3">
                 <li>Roupa de cama inclusa</li>
@@ -275,9 +265,11 @@ export default function Acampamento() {
                 </li>
               </ul>
 
-              <div className="border font-bold border-green-500 text-green-700  p-3 rounded-md flex items-center justify-center text-black">
-                Valor 450,00
+              <div className="border font-bold border-green-500 text-green-700  p-3 rounded-md flex items-center justify-center text-black my-3">
+                R$ 450,00
               </div>
+
+              <WhatsappButton>SOLICITAR PROPOSTA WHATSAPP</WhatsappButton>
             </article>
           </div>
         </section>

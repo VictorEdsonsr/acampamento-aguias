@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { FaCamera, FaMapMarkedAlt } from "react-icons/fa";
 import { ActionButton } from "../components/Buttons";
+import Slider from "../components/Slider";
 
 export default function Home() {
   return (
@@ -10,23 +11,7 @@ export default function Home() {
         <title>Bem vindo a pagina principal</title>
       </Head>
       <main>
-        <section className="bg-[url('/img/banner-home-1.jpg')] w-full h-[690px] relative flex flex-col items-center justify-center">
-          <div className="container flex flex-col items-center justify-center">
-            <article className="absolute z-10 m-auto text-white  text-center max-w-6xl">
-              <h1 className="font-extrabold text-xl sm:text-5xl my-3">
-                Um acampamento de férias no Interior do Rio de Janeiro 90
-                quilômetros do Aeroporto Santos Dumont
-              </h1>
-
-              <p className="font-bold text-md sm:text-xl">
-                Acampamento seguindo padrões e procedimentos da International
-                Camping Fellowship
-              </p>
-            </article>
-          </div>
-          <div className="bg-gradient-to-t from-slate-900 to-transparent absolute top-0 right-0 left-0 bottom-0"></div>
-        </section>
-
+        <Slider />
         <section className="my-10 flex items-center justify-center">
           <div className="container flex items-center justify-center flex flex-col sm:flex-row">
             <article className="text-center p-5 flex flex-col items-center justify-center max-w-md">
