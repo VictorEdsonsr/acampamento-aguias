@@ -1,6 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import firstBanner from "../../../public/img/banner-atividade.jpg";
+
+import circuitoOne from "../../../public/img/circuito-1.jpg";
+import circuitoTwo from "../../../public/img/circuito-2.jpg";
+import circuitoThree from "../../../public/img/circuito-3.jpg";
+import circuitoFour from "../../../public/img/circuito-4.jpg";
+
 import gincanaOne from "../../../public/img/gincana-1.jpg";
 import gincanaTwo from "../../../public/img/gincana-2.jpg";
 import gincanaThree from "../../../public/img/gincana-3.jpg";
@@ -52,45 +58,30 @@ export default function Atividade() {
 
             <figure className="flex items-center flex-col justify-center">
               <div className="flex flex-col md:flex-row  items-center justify-center">
-                <div className="">
-                  <Image
-                    src="/img/circuito-1.jpg"
-                    className="p-3"
-                    width={350}
-                    height={350}
-                    alt="Imagem de tiroleza"
-                  />
-                </div>
+                <Image
+                  src={circuitoOne}
+                  className="w-full md:w-2/4 p-3 h-[280px]"
+                  alt="Imagem de tiroleza"
+                />
 
-                <div>
-                  <Image
-                    src="/img/circuito-2.jpg"
-                    className="p-3"
-                    width={350}
-                    height={350}
-                    alt="Imagem de escalada"
-                  />
-                </div>
+                <Image
+                  src={circuitoTwo}
+                  className="w-full md:w-2/4 p-3 h-[280px]"
+                  alt="Imagem de escalada"
+                />
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center">
-                <div>
-                  <Image
-                    src="/img/circuito-3.jpg"
-                    className="p-3"
-                    width={350}
-                    height={350}
-                    alt="Imagem de Trilha na mata"
-                  />
-                </div>
-                <div>
-                  <Image
-                    src="/img/circuito-4.jpg"
-                    className="p-3"
-                    width={350}
-                    height={350}
-                    alt="Imagem Acampando"
-                  />
-                </div>
+                <Image
+                  src={circuitoThree}
+                  className="w-full md:w-2/4 p-3 h-[280px]"
+                  alt="Imagem de Trilha na mata"
+                />
+
+                <Image
+                  src={circuitoFour}
+                  className="w-full md:w-2/4 p-3 h-[280px]"
+                  alt="Imagem Acampando"
+                />
               </div>
             </figure>
           </div>
@@ -118,39 +109,31 @@ export default function Atividade() {
             </article>
 
             <figure className="flex items-center flex-col justify-center">
-              <div className="flex flex-col md:flex-row  items-center justify-center">
-                <div className="p-3">
-                  <Image
-                    src={gincanaOne}
-                    className="w-[330px] h-[200px]"
-                    alt="Imagem de Toboágua"
-                  />
-                </div>
+              <div className="flex flex-col md:flex-row w-full items-center justify-center">
+                <Image
+                  src={gincanaOne}
+                  className="w-full md:w-2/4 p-3 h-[280px]"
+                  alt="Imagem de Toboágua"
+                />
 
-                <div className="p-3">
-                  <Image
-                    src={gincanaTwo}
-                    className="w-[330px] h-[200px]"
-                    alt="Imagem de Cabo de Guerra"
-                  />
-                </div>
+                <Image
+                  src={gincanaTwo}
+                  className="w-full md:w-2/4 p-3 h-[280px]"
+                  alt="Imagem de Cabo de Guerra"
+                />
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center">
-                <div className="p-3 max-w-[350px] max-h-[220px]">
-                  <Image
-                    src={gincanaThree}
-                    className="w-[450px] h-[200px]"
-                    alt="Imagem de Guerra de Bexigas D’água"
-                  />
-                </div>
+                <Image
+                  src={gincanaThree}
+                  className="w-full md:w-2/4 p-3 h-[280px]"
+                  alt="Imagem de Guerra de Bexigas D’água"
+                />
 
-                <div className="p-3 max-w-[350px] max-h-[220px]">
-                  <Image
-                    src={gincanaFour}
-                    className="w-[450px] h-[200px]"
-                    alt="Imagem de Corrida de 3 Pernas"
-                  />
-                </div>
+                <Image
+                  src={gincanaFour}
+                  className="w-full md:w-2/4 p-3 h-[280px]"
+                  alt="Imagem de Corrida de 3 Pernas"
+                />
               </div>
             </figure>
           </div>
@@ -179,24 +162,24 @@ export default function Atividade() {
               <div className="flex flex-col md:flex-row  items-center justify-center">
                 <Image
                   src={atividadeOne}
-                  className="p-3 w-[340px] h-[230px]"
+                  className="p-3 w-full md:w-2/4 h-[280px]"
                   alt="Imagem de Natação"
                 />
                 <Image
                   src={atividadeTwo}
-                  className="p-3 w-[335px] h-[230px]"
+                  className="p-3 w-full md:w-2/4 h-[280px]"
                   alt="Imagem de Volei"
                 />
               </div>
-              <div className="flex flex-col md:flex-row items-center max-w-sm justify-center">
+              <div className="flex flex-col md:flex-row items-center justify-center">
                 <Image
                   src={atividadeThree}
-                  className="p-3 w-[340px] h-[230px]"
+                  className="p-3 w-full md:w-2/4 h-[280px]"
                   alt="Imagem de PigPong"
                 />
                 <Image
                   src={atividadeFour}
-                  className="p-3 w-[330px] h-[230px]"
+                  className="p-3 w-full md:w-2/4 h-[280px]"
                   alt="Imagem de Futebol"
                 />
               </div>
@@ -227,24 +210,24 @@ export default function Atividade() {
               <div className="flex flex-col md:flex-row  items-center justify-center">
                 <Image
                   src={oficinaOne}
-                  className="p-3 w-[340px] h-[230px]"
+                  className="p-3 w-full md:w-2/4 h-[280px]"
                   alt="Imagem de teatro"
                 />
                 <Image
                   src={oficinaTwo}
-                  className="p-3 w-[340px] h-[230px]"
+                  className="p-3 w-full md:w-2/4 h-[280px]"
                   alt="Imagem de circo"
                 />
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center">
                 <Image
                   src={oficinaThree}
-                  className="p-3 w-[340px] h-[230px]"
+                  className="p-3 w-full md:w-2/4 h-[280px]"
                   alt="Imagem de cinema"
                 />
                 <Image
                   src={oficinaFour}
-                  className="p-3 w-[345px] h-[230px]"
+                  className="p-3 w-full md:w-2/4 h-[280px]"
                   alt="Imagem de culinaria"
                 />
               </div>
