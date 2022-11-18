@@ -1,6 +1,20 @@
 import Head from "next/head";
 import Image from "next/image";
 import firstBanner from "../../../public/img/banner-atividade.jpg";
+import gincanaOne from "../../../public/img/gincana-1.jpg";
+import gincanaTwo from "../../../public/img/gincana-2.jpg";
+import gincanaThree from "../../../public/img/gincana-3.jpg";
+import gincanaFour from "../../../public/img/gincana-4.jpg";
+
+import atividadeOne from "../../../public/img/atividades-1.jpg";
+import atividadeTwo from "../../../public/img/atividades-2.jpg";
+import atividadeThree from "../../../public/img/atividades-3.jpg";
+import atividadeFour from "../../../public/img/atividades-4.jpg";
+
+import oficinaOne from "../../../public/img/oficina-1.jpg";
+import oficinaTwo from "../../../public/img/oficina-2.jpeg";
+import oficinaThree from "../../../public/img/oficina-3.jpeg";
+import oficinaFour from "../../../public/img/oficina-4.jpg";
 
 export default function Atividade() {
   return (
@@ -18,8 +32,8 @@ export default function Atividade() {
         </section>
 
         <section className=" flex justify-center items-center ">
-          <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center ">
-            <article className="p-3 text-center">
+          <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center ">
+            <article className="p-3 text-center sm:text-left">
               <h1 className="font-bold text-xl sm:text-3xl">
                 CIRCUITO DE AVENTURAS
               </h1>
@@ -38,44 +52,53 @@ export default function Atividade() {
 
             <figure className="flex items-center flex-col justify-center">
               <div className="flex flex-col md:flex-row  items-center justify-center">
-                <Image
-                  src="/img/circuito-1.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem de tiroleza"
-                />
-                <Image
-                  src="/img/circuito-2.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem de escalada"
-                />
+                <div className="">
+                  <Image
+                    src="/img/circuito-1.jpg"
+                    className="p-3"
+                    width={350}
+                    height={350}
+                    alt="Imagem de tiroleza"
+                  />
+                </div>
+
+                <div>
+                  <Image
+                    src="/img/circuito-2.jpg"
+                    className="p-3"
+                    width={350}
+                    height={350}
+                    alt="Imagem de escalada"
+                  />
+                </div>
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center">
-                <Image
-                  src="/img/circuito-3.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem de Trilha na mata"
-                />
-                <Image
-                  src="/img/circuito-4.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem Acampando"
-                />
+                <div>
+                  <Image
+                    src="/img/circuito-3.jpg"
+                    className="p-3"
+                    width={350}
+                    height={350}
+                    alt="Imagem de Trilha na mata"
+                  />
+                </div>
+                <div>
+                  <Image
+                    src="/img/circuito-4.jpg"
+                    className="p-3"
+                    width={350}
+                    height={350}
+                    alt="Imagem Acampando"
+                  />
+                </div>
               </div>
             </figure>
           </div>
         </section>
 
         <section className="bg-slate-700 text-white mt-5 flex justify-center items-center">
-          <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center ">
-            <article className="p-3 text-center">
+          <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center ">
+            <article className="p-3 text-center sm:text-left">
               <h1 className="font-bold  text-xl sm:text-3xl">
                 GINCANAS EM EQUIPE
               </h1>
@@ -96,44 +119,46 @@ export default function Atividade() {
 
             <figure className="flex items-center flex-col justify-center">
               <div className="flex flex-col md:flex-row  items-center justify-center">
-                <Image
-                  src="/img/gincana-1.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem de Toboágua"
-                />
-                <Image
-                  src="/img/gincana-2.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem de Piscina na Lama"
-                />
+                <div className="p-3">
+                  <Image
+                    src={gincanaOne}
+                    className="w-[330px] h-[200px]"
+                    alt="Imagem de Toboágua"
+                  />
+                </div>
+
+                <div className="p-3">
+                  <Image
+                    src={gincanaTwo}
+                    className="w-[330px] h-[200px]"
+                    alt="Imagem de Cabo de Guerra"
+                  />
+                </div>
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center">
-                <Image
-                  src="/img/gincana-3.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem de Cabo de Guerra"
-                />
-                <Image
-                  src="/img/gincana-4.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem Queimada"
-                />
+                <div className="p-3 max-w-[350px] max-h-[220px]">
+                  <Image
+                    src={gincanaThree}
+                    className="w-[450px] h-[200px]"
+                    alt="Imagem de Guerra de Bexigas D’água"
+                  />
+                </div>
+
+                <div className="p-3 max-w-[350px] max-h-[220px]">
+                  <Image
+                    src={gincanaFour}
+                    className="w-[450px] h-[200px]"
+                    alt="Imagem de Corrida de 3 Pernas"
+                  />
+                </div>
               </div>
             </figure>
           </div>
         </section>
 
         <section className="mt-5 flex justify-center items-center">
-          <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center ">
-            <article className="p-3 text-center">
+          <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center ">
+            <article className="p-3 text-center sm:text-left">
               <h1 className="font-bold  text-xl sm:text-3xl">
                 ATIVIDADES ESPORTIVAS
               </h1>
@@ -153,34 +178,26 @@ export default function Atividade() {
             <figure className="flex items-center flex-col justify-center">
               <div className="flex flex-col md:flex-row  items-center justify-center">
                 <Image
-                  src="/img/atividades-1.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem de tiroleza"
+                  src={atividadeOne}
+                  className="p-3 w-[340px] h-[230px]"
+                  alt="Imagem de Natação"
                 />
                 <Image
-                  src="/img/atividades-2.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem de escalada"
+                  src={atividadeTwo}
+                  className="p-3 w-[335px] h-[230px]"
+                  alt="Imagem de Volei"
                 />
               </div>
-              <div className="flex flex-col md:flex-row items-center justify-center">
+              <div className="flex flex-col md:flex-row items-center max-w-sm justify-center">
                 <Image
-                  src="/img/atividades-3.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem de Trilha na mata"
+                  src={atividadeThree}
+                  className="p-3 w-[340px] h-[230px]"
+                  alt="Imagem de PigPong"
                 />
                 <Image
-                  src="/img/atividades-4.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
-                  alt="Imagem Acampando"
+                  src={atividadeFour}
+                  className="p-3 w-[330px] h-[230px]"
+                  alt="Imagem de Futebol"
                 />
               </div>
             </figure>
@@ -188,8 +205,8 @@ export default function Atividade() {
         </section>
 
         <section className=" bg-gray-200 mt-5 flex justify-center items-center">
-          <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center ">
-            <article className="p-3 text-center">
+          <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center ">
+            <article className="p-3 text-center sm:text-left">
               <h1 className="font-bold  text-xl sm:text-3xl">
                 OFICINAS PROFISSIONAIS
               </h1>
@@ -209,33 +226,25 @@ export default function Atividade() {
             <figure className="flex items-center flex-col justify-center">
               <div className="flex flex-col md:flex-row  items-center justify-center">
                 <Image
-                  src="/img/oficina-1.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
+                  src={oficinaOne}
+                  className="p-3 w-[340px] h-[230px]"
                   alt="Imagem de teatro"
                 />
                 <Image
-                  src="/img/oficina-2.jpeg"
-                  className="p-3"
-                  width={250}
-                  height={250}
+                  src={oficinaTwo}
+                  className="p-3 w-[340px] h-[230px]"
                   alt="Imagem de circo"
                 />
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center">
                 <Image
-                  src="/img/oficina-3.jpeg"
-                  className="p-3"
-                  width={250}
-                  height={250}
+                  src={oficinaThree}
+                  className="p-3 w-[340px] h-[230px]"
                   alt="Imagem de cinema"
                 />
                 <Image
-                  src="/img/oficina-4.jpg"
-                  className="p-3"
-                  width={250}
-                  height={250}
+                  src={oficinaFour}
+                  className="p-3 w-[345px] h-[230px]"
                   alt="Imagem de culinaria"
                 />
               </div>
