@@ -43,10 +43,10 @@ export const Layout = ({ children }) => {
       >
         <Link href="/">
           <Image
-            className="px-8 z-50 absolute"
+            className=" z-50 "
             src="/img/logo.svg"
-            width={100}
-            height={100}
+            width={120}
+            height={90}
             alt="Logo do site"
           />
         </Link>
