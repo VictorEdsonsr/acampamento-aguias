@@ -43,9 +43,9 @@ export default function Contato() {
               <h1 className="my-6 font-semibold text-xl">Email</h1>
               <Link
                 className="cursor-pointer underline hover:text-orange-500 text-md"
-                href="mailto:alexisjornalista@gmail.com"
+                href="mailto:acampamentodeferiasrio@gmail.com"
               >
-                alexisjornalista@gmail.com
+                acampamentodeferiasrio@gmail.com
               </Link>
             </div>
           </div>
