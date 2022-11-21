@@ -11,7 +11,7 @@ export default function Acampamento() {
   return (
     <>
       <Head>
-        <title>O acampamento</title>
+        <title>Acampamento kixiki - O acampamento</title>
       </Head>
       <main>
         <section className="flex items-center flex-col justify-center">

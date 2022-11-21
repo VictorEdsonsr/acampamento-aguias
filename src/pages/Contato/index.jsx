@@ -7,7 +7,7 @@ export default function Contato() {
   return (
     <>
       <Head>
-        <title>Contato</title>
+        <title>Acampamento kixiki - Contato</title>
       </Head>
       <main>
         <section className="flex flex-col items-center justify-center">

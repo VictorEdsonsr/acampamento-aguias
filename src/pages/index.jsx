@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bem vindo a pagina principal</title>
+        <title>Acampamento kixiki - Bem vindo a pagina principal</title>
       </Head>
       <main>
         <Slider />
