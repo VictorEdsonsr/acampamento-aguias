@@ -159,7 +159,7 @@ export default function Atividade() {
             </article>
 
             <figure className="flex items-center flex-col justify-center">
-              <div className="flex flex-col md:flex-row  items-center justify-center">
+              <div className="flex flex-col md:flex-row sm:w-[760px] w-full items-center justify-center">
                 <Image
                   src={atividadeOne}
                   className="p-3 w-full md:w-2/4 h-[280px]"
