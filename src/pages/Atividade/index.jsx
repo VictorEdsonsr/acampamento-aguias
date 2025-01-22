@@ -33,7 +33,7 @@ export default function Atividade() {
           <Image
             src={firstBanner}
             alt="Foto de criancas brincando"
-            className="w-full h-60 sm:h-[390px]"
+            className="w-full object-top object-cover h-60 sm:h-[390px]"
           />
         </section>
 
@@ -47,7 +47,7 @@ export default function Atividade() {
                 Vai ser inesquecível
               </h2>
 
-              <ul className="text-left ml-10 list-disc">
+              <ul className="text-left ml-10 ">
                 <li className="text-lg">Tiroleza</li>
                 <li className="text-lg">Teia de Escalada</li>
                 <li className="text-lg">Trilha na Mata</li>
@@ -58,30 +58,39 @@ export default function Atividade() {
 
             <figure className="flex items-center flex-col justify-center">
               <div className="flex flex-col md:flex-row  items-center justify-center">
-                <Image
-                  src={circuitoOne}
-                  className="w-full md:w-2/4 p-3 h-[280px]"
-                  alt="Imagem de tiroleza"
-                />
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={circuitoOne}
+                    className="w-full object-cover p-3 h-[280px]"
+                    alt="Imagem de tiroleza"
+                  />
+                </div>
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={circuitoTwo}
+                    className="w-full object-cover p-3 h-[280px]"
+                    alt="Imagem de escalada"
+                  />
+                </div>
 
-                <Image
-                  src={circuitoTwo}
-                  className="w-full md:w-2/4 p-3 h-[280px]"
-                  alt="Imagem de escalada"
-                />
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center">
-                <Image
-                  src={circuitoThree}
-                  className="w-full md:w-2/4 p-3 h-[280px]"
-                  alt="Imagem de Trilha na mata"
-                />
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={circuitoThree}
+                    className="w-full object-cover p-3 h-[280px]"
+                    alt="Imagem de Trilha na mata"
+                  />
+                </div>
 
-                <Image
-                  src={circuitoFour}
-                  className="w-full md:w-2/4 p-3 h-[280px]"
-                  alt="Imagem Acampando"
-                />
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={circuitoFour}
+                    className="w-full object-cover p-3 h-[280px]"
+                    alt="Imagem Acampando"
+                  />
+                </div>
+
               </div>
             </figure>
           </div>
@@ -97,7 +106,7 @@ export default function Atividade() {
                 TRABALHO EM EQUIPE COM OS NOVOS AMIGOS
               </h2>
 
-              <ul className="text-left ml-10 list-disc">
+              <ul className="text-left ml-10">
                 <li className="text-lg">Toboágua</li>
                 <li className="text-lg">Piscina na Lama</li>
                 <li className="text-lg">Cabo de Guerra</li>
@@ -110,30 +119,41 @@ export default function Atividade() {
 
             <figure className="flex items-center flex-col justify-center">
               <div className="flex flex-col md:flex-row w-full items-center justify-center">
-                <Image
-                  src={gincanaOne}
-                  className="w-full md:w-2/4 p-3 h-[280px]"
-                  alt="Imagem de Toboágua"
-                />
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={gincanaOne}
+                    className="w-full object-cover p-3 h-[280px]"
+                    alt="Imagem de Toboágua"
+                  />
 
-                <Image
-                  src={gincanaTwo}
-                  className="w-full md:w-2/4 p-3 h-[280px]"
-                  alt="Imagem de Cabo de Guerra"
-                />
+                </div>
+
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={gincanaTwo}
+                    className="w-full object-cover p-3 h-[280px]"
+                    alt="Imagem de Cabo de Guerra"
+                  />
+                </div>
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center">
-                <Image
-                  src={gincanaThree}
-                  className="w-full md:w-2/4 p-3 h-[280px]"
-                  alt="Imagem de Guerra de Bexigas D’água"
-                />
 
-                <Image
-                  src={gincanaFour}
-                  className="w-full md:w-2/4 p-3 h-[280px]"
-                  alt="Imagem de Corrida de 3 Pernas"
-                />
+
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={gincanaThree}
+                    className="w-full object-cover p-3 h-[280px]"
+                    alt="Imagem de Guerra de Bexigas D’água"
+                  />
+                </div>
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={gincanaFour}
+                    className="w-full object-cover p-3 h-[280px]"
+                    alt="Imagem de Corrida de 3 Pernas"
+                  />
+                </div>
+
               </div>
             </figure>
           </div>
@@ -149,7 +169,7 @@ export default function Atividade() {
                 É DE PRATICAR OUTROS ESPORTES
               </h2>
 
-              <ul className="text-left ml-10 list-disc">
+              <ul className="text-left ml-10">
                 <li className="text-lg">Natação</li>
                 <li className="text-lg">Volei</li>
                 <li className="text-lg">Futvolei</li>
@@ -160,28 +180,39 @@ export default function Atividade() {
 
             <figure className="flex items-center flex-col justify-center">
               <div className="flex flex-col md:flex-row sm:w-[760px] w-full items-center justify-center">
-                <Image
-                  src={atividadeOne}
-                  className="p-3 w-full md:w-2/4 h-[280px]"
-                  alt="Imagem de Natação"
-                />
-                <Image
-                  src={atividadeTwo}
-                  className="p-3 w-full md:w-2/4 h-[280px]"
-                  alt="Imagem de Volei"
-                />
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={atividadeOne}
+                    className="p-3 w-full object-cover h-[280px]"
+                    alt="Imagem de Natação"
+                  />
+                </div>
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={atividadeTwo}
+                    className="p-3 w-full object-cover h-[280px]"
+                    alt="Imagem de Volei"
+                  />
+                </div>
+
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center">
-                <Image
-                  src={atividadeThree}
-                  className="p-3 w-full md:w-2/4 h-[280px]"
-                  alt="Imagem de PigPong"
-                />
-                <Image
-                  src={atividadeFour}
-                  className="p-3 w-full md:w-2/4 h-[280px]"
-                  alt="Imagem de Futebol"
-                />
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={atividadeThree}
+                    className="p-3 w-full object-cover h-[280px]"
+                    alt="Imagem de PigPong"
+                  />
+                </div>
+
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={atividadeFour}
+                    className="p-3 w-full object-cover h-[280px]"
+                    alt="Imagem de Futebol"
+                  />
+                </div>
+
               </div>
             </figure>
           </div>
@@ -197,7 +228,7 @@ export default function Atividade() {
                 BORA DESPERTAR TALENTOS?
               </h2>
 
-              <ul className="text-left ml-10 list-disc">
+              <ul className="text-left ml-10">
                 <li className="text-lg">Teatro</li>
                 <li className="text-lg">Circo</li>
                 <li className="text-lg">Cinema</li>
@@ -208,28 +239,39 @@ export default function Atividade() {
 
             <figure className="flex items-center flex-col justify-center">
               <div className="flex flex-col md:flex-row  items-center justify-center">
-                <Image
-                  src={oficinaOne}
-                  className="p-3 w-full md:w-2/4 h-[280px]"
-                  alt="Imagem de teatro"
-                />
-                <Image
-                  src={oficinaTwo}
-                  className="p-3 w-full md:w-2/4 h-[280px]"
-                  alt="Imagem de circo"
-                />
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={oficinaOne}
+                    className="p-3 w-full object-cover h-[280px]"
+                    alt="Imagem de teatro"
+                  />
+                </div>
+
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={oficinaTwo}
+                    className="p-3 w-full object-cover h-[280px]"
+                    alt="Imagem de circo"
+                  />
+                </div>
+
               </div>
               <div className="flex flex-col md:flex-row items-center justify-center">
-                <Image
-                  src={oficinaThree}
-                  className="p-3 w-full md:w-2/4 h-[280px]"
-                  alt="Imagem de cinema"
-                />
-                <Image
-                  src={oficinaFour}
-                  className="p-3 w-full md:w-2/4 h-[280px]"
-                  alt="Imagem de culinaria"
-                />
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={oficinaThree}
+                    className="p-3 w-full object-cover h-[280px]"
+                    alt="Imagem de cinema"
+                  />
+                </div>
+                <div className="w-72 md:w-96">
+                  <Image
+                    src={oficinaFour}
+                    className="p-3 w-full object-cover h-[280px]"
+                    alt="Imagem de culinaria"
+                  />
+                </div>
+
               </div>
             </figure>
           </div>

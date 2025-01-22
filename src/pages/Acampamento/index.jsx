@@ -17,13 +17,13 @@ export default function Acampamento() {
         <section className="flex items-center flex-col justify-center">
           <Image
             src={bannerOne}
-            className="w-full h-80 sm:h-[690px]"
+            className="w-full h-80 object-cover sm:h-[690px]"
             alt="Banner da pagina acampamento"
           />
         </section>
 
         <section className="flex justify-center items-center p-10">
-          <div className="container flex justify-between items-center flex-col lg:flex-row mx-auto">
+          <div className="container flex justify-between gap-0 sm:gap-20 items-center flex-col lg:flex-row mx-auto">
             <article className="max-w-md my-5 sm:my-0">
               <h1 className="font-bold text-lg sm:text-2xl">
                 Sobre o Acampamento de Férias
@@ -57,14 +57,14 @@ export default function Acampamento() {
 
             <Image
               src={bannerTwo}
-              className="w-full h-52 sm:h-80 ml-0 sm:ml-5 my-5 sm:my-0"
+              className="w-[400px] sm:w-full object-cover h-52 sm:h-96 ml-0 sm:ml-5 my-5 sm:my-0"
               alt="Imagem sobre o acampamento"
             />
           </div>
         </section>
 
         <section className="bg-gray-200 flex justify-center items-center p-10">
-          <div className="container flex justify-between items-center flex-col lg:flex-row mx-auto">
+          <div className="container flex justify-between gap-0 sm:gap-20 items-center flex-col lg:flex-row mx-auto">
             <article className="max-w-md my-5 sm:my-0">
               <h1 className="font-bold text-lg sm:text-2xl">
                 Por que mandar meu filho para o acampamento?
@@ -111,14 +111,14 @@ export default function Acampamento() {
 
             <Image
               src={bannerThree}
-              className="w-full h-52 sm:h-80 ml-0 sm:ml-5 my-5 sm:my-0"
+              className="w-[400px] sm:w-full object-cover h-52 sm:h-96 ml-0 sm:ml-5 my-5 sm:my-0"
               alt="Imagem do porque mandar seu filho para o acampamento"
             />
           </div>
         </section>
 
         <section className="flex justify-center items-center p-10">
-          <div className="container flex justify-between items-center w-full flex-col lg:flex-row mx-auto">
+          <div className="container flex justify-between items-center gap-0 sm:gap-20 w-full flex-col lg:flex-row mx-auto">
             <article className="max-w-md flex flex-col mr-5 my-5 sm:my-0">
               <h1 className="font-bold text-lg sm:text-2xl">
                 Seu filho está acampando pela primeira vez?
@@ -166,7 +166,7 @@ export default function Acampamento() {
 
             <Image
               src={bannerFour}
-              className="w-full h-52 sm:h-80 ml-0 sm:ml-5 my-5 sm:my-0"
+              className="sm:w-full object-cover w-[400px] h-52 sm:h-96 ml-0 sm:ml-5 my-5 sm:my-0"
               alt="Imagem de filho acampando pela primeira vez"
             />
           </div>

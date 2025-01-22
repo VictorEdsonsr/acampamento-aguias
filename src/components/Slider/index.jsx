@@ -32,7 +32,8 @@ export default function Slider() {
       >
         <SwiperSlide className="relative flex flex-col items-center justify-center">
           <Image
-            className=" w-full h-60 sm:h-[690px]"
+            className=" w-full h-60 object-cover sm:h-[690px]"
+
             src={principalOne}
             alt="image slide 1"
           />
@@ -48,11 +49,11 @@ export default function Slider() {
             </p>
           </article>
 
-          <div className="bg-gradient-to-t from-slate-900 to-transparent absolute top-0 right-0 left-0 bottom-0"></div>
+          <div className="bg-gradient-to-t from-black to-transparent absolute top-0 right-0 left-0 bottom-0"></div>
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            className=" w-full h-60 sm:h-[690px]"
+            className=" w-full h-60 object-cover sm:h-[690px]"
             src={principalTwo}
             alt="image slide 2"
           />
